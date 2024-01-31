@@ -1,0 +1,18 @@
+.layout {
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 10px 10px 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    margin-bottom: 20px;
+}

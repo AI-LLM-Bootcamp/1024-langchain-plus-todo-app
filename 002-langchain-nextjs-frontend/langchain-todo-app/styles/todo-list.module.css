@@ -1,0 +1,63 @@
+.container {
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.uploadForm {
+  margin-top: 20px;
+}
+
+.uploadInput {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mainInputContainer {
+  width: 100%;
+  margin: 0px 0px 50px 0px;
+}
+
+.mainInput {
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin: auto;
+  display: block;
+  width: 560px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.loadBtn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: auto;
+  display: block;
+}
+
+.filterBtn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.filterActive {
+  text-decoration: underline;
+  color: blue;
+}

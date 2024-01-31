@@ -1,0 +1,70 @@
+.todoInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: calc(100% - 10px);
+  height: 30px;
+  margin: 0 10px 0px 10px;
+  border-radius: 4px;
+}
+
+.toDoRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 10px 0px 10px;
+  padding: 5px;
+}
+
+.deleteBtn {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.deleteBtn:hover {
+  color: red;
+}
+
+/* todo.module.css */
+
+/* Style for the "Generate Poem" button */
+.generatePoemBtn {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+/* todo.module.css */
+
+/* Styles for the poem display box (popup) */
+.poemBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    overflow: auto; /* Add scrollbars if the content overflows */
+  }
+  
+  /* Styles for the poem text */
+  .poem {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+  
+  /* Additional styles as needed */
+  
+  
+  
